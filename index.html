@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css.css">
+
+    <title>IT u senzorskim sistemima</title>
+    
+</head>
+
+<body>
+
+<header class="bg-light text-white py-4">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-4 text-center text-md-left">
+                <h2 class="m-0 text-dark">FTN Čačak</h2>
+            </div>
+            <div class="header-buttons">
+                <a href="https://eucenje.ftn.kg.ac.rs/enrol/index.php?id=291" class="header-button"><img src="https://tehnickaso.edu.rs/wp-content/uploads/2021/10/image_2021-10-21_225833.png" alt="E-učenje" width="50" height="50"></a>
+            <a href="http://www.ftn.kg.ac.rs/akreditacija2021/KNJIGA%20PREDMETA/Informacione_tehnologije_u_senzorskim_sistemima.pdf" class="header-button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/FTN_Cacak_logo.svg/480px-FTN_Cacak_logo.svg.png" alt="E-učenje" width="50" height="50"></a>
+                <a href="#myChart" class="header-button"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ZDO0Lq2zjj0_7Jt0DG3Tlm0KTjYqvf89zQ&amp;usqp=CAU" alt="Dijagram" width="50" height="50"></a>
+                <a href="#parsedData" class="header-button"><img src="data:image/png;base64,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" alt="Tabela podataka" width="50" height="50"></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <!-- Ostatak vašeg head dela -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div>
+            <form>
+                <div class="form-group mt-2">
+                    <label for="csvFile" class="custom-file-upload">Izaberite fajl</label>
+                    <input type="file" class="form-control-file" id="csvFile" accept=".csv">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+        <div class="row">
+            <div class="col-sm-12 ml-3 mr-3"><canvas id="myChart"></canvas></div>
+            <br>
+            <button class="ml-3 form-control" onclick="downloadDataAsCSV()">Preuzmite kao CSV fajl</button>        
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-10 ml-auto mr-auto">
+                <div class="pl-5">
+                    <h4>Trenutni podaci</h4>
+                    <div id="parsedData"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="profesor">
+                <h3>Profesor: <span>dr. Nebojša Mitrović</span></h3>
+            </div>
+            <div class="asistent">
+                <h3>Asistent: <span>Jelena Orelj</span></h3>
+            </div>
+            <div class="student">
+                <h3>Student: <span>Ivan Novaković</span></h3>
+                <h3>Indeks: <span>4/2020</span></h3>
+            </div>
+            <button id="vratiNaVrhBtn">Vrati na vrh</button>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="myScript.js"></script>
+
+            
+
+        
+        
+
+    
+</body>
+
+</html>
